@@ -1,0 +1,150 @@
+/*-----Main CSS file!!!----*/
+body{
+    text-align: center;
+}
+
+.body
+{
+    background-image: url("sadFacebg.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 68px;
+
+}
+
+.heading {
+    background-image: linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);
+    color: white;
+    font-size: 40px;
+    background-repeat: repeat-x;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.content
+{
+    margin-top: 50px;
+}
+#content1
+{
+    margin-top: 40px;
+}
+
+.container
+{
+    text-align: left;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 280px;
+}
+.info{
+    margin: auto;
+    font-size: 25px;
+}
+.picture {
+
+}
+#img{
+    width: 230px;
+    height: 300px;
+}
+
+#img2
+{
+    width: 230px;
+    height: 300px;
+
+}
+
+#img3
+{
+
+    width: 230px;
+    height: 300px;
+}
+
+#footer
+{
+    font-size: 14px;
+    color: #777;
+}
+
+#footerDiv
+{
+    margin-top: 40px;
+}
+
+#footerDiv2
+{
+
+    margin-left: 38%;
+    position: absolute; bottom: 0;
+}
+
+.homeLink {
+    margin-top: 75px;
+
+}
+.homeButton
+{
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);
+    border: none;
+    color: white;
+}
+
+.error403
+{
+    margin-top: 120px;
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+    color: firebrick;
+}
+.noAccess
+{
+    margin-top: 115px;
+    font-family: "Comic Sans MS";
+    font-size: 48px;
+    color: firebrick;
+    font-style: oblique;
+    
+}
+
+.error404
+{
+    margin-top: 115px;
+    font-family: "Comic Sans MS";
+    font-size: 40px;
+    color: firebrick;
+    margin-bottom: 10px;
+}
+
+.ops
+{
+    margin-top: 0px;
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    color: firebrick;
+}
+
+.notF
+{
+    margin-top: 65px;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: firebrick;
+    margin-bottom: 90px;
+}
+.nav
+{
+    margin-top: 100px;
+}

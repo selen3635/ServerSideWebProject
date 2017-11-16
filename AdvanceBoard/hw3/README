@@ -1,0 +1,82 @@
+-----------------------------CSE135 HW4------------------------------
+Group: team31
+Group member: Chenlin Ye
+Group member: Xiaolong Zhou
+
+-------------------------------important-----------------------------
+*NOTE: All homework 4 files are included in directory hw3.
+
+
+How to access database:
+  1. Type: mysql -u root -p
+  2. Password: xlmxck135
+  3. Type: use soundboard;
+ 
+*Note: all tables are included in soundbard
+
+Link: http:138.197.198.28/hw3/readme.pdf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------CSE135 HW3---------
+Group: team31
+Group member: Chenlin Ye
+Group member: Xiaolong Zhou
+
+-----------------------important-----------------------
+*NOTE: All homework 3 files are included in directory hw3.
+
+Tutorial:
+  1. Link: http://138.197.198.28/hw3/index.php 
+     or http://138.197.198.28/index.html/ and click hw3 links on the top.
+  2. Without login, there are two defaul public sound boards. If user click on
+     one of the sound board, you will be redirect to another page which shows
+     all the sound with pictures. Then user can click on any picture to play
+     sound. If user want to go back to homepage, just click on return button
+     which locate on left down corner.
+  3. To get private sound boards, you will have to click on sign up button
+     (upper right corner) to get a account. Then you can log in your account
+     any time after you have your own account by clicking on log in.
+  4. While you are logged in, you will have two sections of sound board which
+     are private sound boards and public soundboards. As we talk before, 
+     public sound boards are default sound board, you can not modify it.
+     However, you can have your own private sound board by clicking on "+" 
+     button which locate on down right corner.
+     After you have created your private sound board, you can click on it and 
+     enter your sound board. Then again you can click on "+" button to add
+     images and sounds to your sound board. 
+     Finally, you have your first private sound board! You can have fun with
+     it. Also you can always return to previous page while you are inside
+     a sound board.
+
+technologies:
+1. We use php to do the server side programming, with a combination of javascript
+at the client side. We put authentication and database functions in the 
+server side, and we put other trivial functions at the client side using
+javascript. We do non-significant form checks using javascript, and do check on
+ important parts on the server side. 
+
+2. When sending requsets, we use ajax to capture the http response and
+alert user with corresponding error messages.
+
+3. We put log in information of the database in an seperate file and only allow the
+server to access it to improve security. 
+
+4. We also use a salt and md5 to encode user password before storing it into the database. 
+And when implementing the authentication system, we use session to do state management.
+
+5. In terms of database, we use mysql. We store user information, soundboard information in
+the database. Also there is a log system which records the total access of each
+soundboard, each sound, and the user logging attempts in the database. 
+
+6. there is an admin account that can edit the public soundboards. 

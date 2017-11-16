@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Collection: CGI version</title>
+    <script src="myJS.js"></script>
+</head>
+<body>
+    <form action="http://138.197.198.28/echo.cgi" method="GET" class="myForm">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label class="fName">First Name:
+            <input type="text" name="FirstName" id="FirstName"></label><br>
+            <label class="lName">Last Name:
+            <input type="text" name="LastName" id="LastName"></label><br>
+            <label>Favorite Color:
+                <select class="getColor" name="color">
+                    <option value="red">red</option>
+                    <option value="blue">blue</option>
+                    <option value="green">green</option>
+                    <option value="yellow">yellow</option>
+                    <option value="purple">purple</option>
+                </select>
+            </label>
+            <label>Methods:
+                <select class="getMethod">
+                    <option value="GET">GET</option>
+                    <option value="POST">POST</option>
+                </select>
+            </label><br>
+            <input class="sbmButton" type="submit" value="submit"
+              onclick="chooseMethod()">
+        </fieldset>
+    </form>
+    <footer>
+    </footer>
+</body>
+</html>
+
